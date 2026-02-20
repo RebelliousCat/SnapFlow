@@ -36,5 +36,5 @@ Align any number of meshes to a target object by matching geometry:
 ## Installation
 
 1.  In Blender, go to `Edit > Preferences > Add-ons`.
-2.  Click `Install...` and select the script file.
+2.  Click `Install...` and select the ZIP folder.
 3.  Find the panel in the **3D View Sidebar (N)** under the **SnapFlow** tab.
