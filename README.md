@@ -11,10 +11,13 @@ It aligns the objects based on the selection of vertices. No more manual gizmo f
 ### 1. Single Object Alignment (World Axis)
 Select vertices on a mesh in **Edit Mode** to perform context-aware snapping:
 
-* **1 Vertex**: Click "Snap to Ground" to set the object's Z-height so that vertex sits exactly at Z=0.
+* **1 Vertex**:
+    * Click **X, Y, or Z** to snap the object so the selected vertex sits exactly at `0` on the chosen axis. Perfect for centering objects or aligning them to the ground (Z).
+
 * **2 Vertices (Edge)**: 
     * **First Click**: Aligns the selected edge perfectly to the chosen world axis (X, Y, or Z).
     * **Following Clicks**: Rotates the object **+90°** around that axis. This allows you to cycle through all 4 orientations while keeping the edge aligned.
+    
 * **3 Vertices (Face)**:
     * **First Click**: Aligns the face normal to the world axis.
     * **Following Clicks**: Performs a **180° Flip** (useful for ceiling/floor or front/back toggles).
